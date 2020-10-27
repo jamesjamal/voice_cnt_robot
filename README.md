@@ -21,11 +21,13 @@ $ `<sudo apt-get install ros-<rosdistro>-rosbridge-server>`
 ##### Editing rosbridge webserver 
 Find rosbridge_server package inside opt/ros/<distro>/share make sure the arguements follow below for security less information transfers
   
+```
 <arg name="ssl" default="false" />
 <arg name="certfile" default="" />
 <arg name="keyfile" default="" /> 
+```
 
-##### cured and detailed server building follow
+##### For secured and detailed server building follow
 
 https://github.com/UbiquityRobotics/speech_commands
 
